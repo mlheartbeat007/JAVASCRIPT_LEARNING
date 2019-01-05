@@ -1,0 +1,62 @@
+
+
+
+
+<html>
+    <head>
+        <title>
+            first vue js 
+        </title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    
+
+    <body>
+        <div id="example">
+                
+            <h1>{{ title }}</h1>
+            <p> {{ message }} </p>
+            <p> {{ name + ',' + name.toUpperCase() }}</p>
+
+        </div>
+
+        
+        
+        
+<!-- there can be a second and third example-->
+      
+        <div id="example2">
+               
+            <h1>{{ name1 }}</h1>
+            <p>{{ text1 }}</p>
+
+        </div>
+
+        <div id="this_is_third">
+
+            <h1>{{name2}}</h1>
+            <p>{{text2}}</p>
+
+        </div>
+
+        <div id="this_is_forth">
+                
+            <h1 v-text="name3"></h1>
+            <img v-bind:src="img.src" v-bind:alt="img.alt">
+            <p v-text="age3"></p>
+            <p v-text="text3"></p>
+
+        </div>
+        <div id="this_is_fifth">
+            <h1 v-text="name5"></h1>
+            <p v-text='date5'></p>
+            <p v-text='details5'></p>
+            <img v-bind:src="img.src" v-bind:alt="img.alt">
+
+
+        </div>
+        <!-- remember add the custom vue js at last-->
+        <script src="app2.js"></script>
+    </body>
+
+</html>
