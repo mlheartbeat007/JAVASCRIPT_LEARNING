@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this is the oop javascript tutorial
+	</title>
+</head>
+<body>
+	<!-- javascript this is the oop tutorial for learning 
+	vue js -->
+
+
+
+	<script type="text/javascript">
+		// create a customer objectlt for the
+		//it is a little bit different 
+		//cause there is no class notation
+		//means no class directly create the object
+		//there are two wways to do that\1) first way
+		var customer = {
+			name: "tom smith",
+			//name is the property
+			//method name is speak
+			speak: function(){
+				return "my name is" +this.name;
+			},
+
+			//we can put object inside an object
+			address:{
+				street: '123 main street',
+				city:'chittagonh',
+				state:"PA",
+
+			}
+		};
+		document.write(customer.name +" lives in "+customer.address.street );
+		//add the propertu
+
+		customer.address.country = ", Bangladesh ";
+
+		document.write(customer.address.country);
+
+
+//create a another one
+
+	var client = {
+		name: "tanvir rahman",
+		id :"143000410",
+
+		work:function(){
+			return "tanvir work as a client";
+		},
+
+		hobby:function(){
+			return "his hobby is programming";
+		},
+		passion:function(){
+			return "he has no passsion";
+		},
+
+		//add another object
+		address:{
+			street: "cda 23 ",
+			area:"agrabad",
+			city:"chittagong",
+			country:"Bangladesh",
+		}
+
+
+		//adding anpother object
+
+
+	};
+
+		
+
+
+
+
+	///accessign
+
+	document.write(client.name+"</br>");
+	document.write(client.id+"</br>");
+	document.write(client.work()+"</br>");
+	document.write(client.hobby()+"</br>");
+	document.write(client.passion()+"</br>");
+	document.write(client.address.street+"</br>");
+	document.write(client.address.area+"</br>");
+	document.write(client.address.city+"</br>");
+	document.write(client.address.country+"</br>");
+
+//create a full school oop structre
+
+
+
+
+
+var school = {
+	name: "TSP complex secondary school",
+	created:"at 1993",
+	class: "from one to ten",
+
+	motto:function(){
+		return "teach the student and make them best ";
+	},
+
+	department:{
+		science:" TSP science Department",
+		commerce: "commerce department is very good",
+		arts:"arts teacher has sortage",
+		depart_ment_motto:function(){
+
+			return "make them good in every aspect";
+		},
+
+
+	},
+
+};
+
+
+document.write(school.name+"</br>");
+document.write(school.created+"</br>");
+document.write(school.motto()+"</br>");
+document.write(school.department.science+"</br>");
+document.write(school.department.commerce+"</br>");
+document.write(school.department.arts+"</br>");
+document.write(school.department.depart_ment_motto()+"</br>");
+//document.write(school.name+"</br>");
+//document.write(school.name+"</br>");
+//document.write(school.name+"</br>");
+
+
+
+
+
+
+
+
+
+var student={
+	name: "Tanvir rahman",
+	age : "15 years old",
+	father : "MD ataur rahman",
+	mother : "Mrs .Ataur rahman",
+	sister : "tamanna afroz",
+	school : "Tsp complex Secondary school",
+
+	//if a function have to use the property of the class
+	// itself we have to use "this" notation 
+	status:function(){
+		return this.name+" is a good student"; 
+			},
+}
+
+	document.write(student.name+"</br>");
+	document.write(student.age+"</br>");
+	document.write(student.father+"</br>");
+	document.write(student.mother+"</br>");
+	document.write(student.sister+"</br>");
+	document.write(school.name+"</br>");
+	document.write(student.school+"</br>");
+
+
+
+var teacher = {
+	name:"kamrunnahar khatun",
+	age: "NULl",
+
+
+	teach:function(){
+		return "she teachs primary student";
+	},
+};
+
+//now try ro access the data
+document.write(teacher.name+"</br>");
+document.write(teacher.age+"</br>");
+document.write(teacher.teach()+"</br>");
+//document.write(school.name+"</br>");
+
+
+
+
+
+
+//thats how to write oop in javascript
+
+//create a constructor like function 
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>
