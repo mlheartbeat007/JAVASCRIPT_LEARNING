@@ -1,0 +1,19 @@
+{
+  "name": "javascript_learning",
+  "version": "1.0.0",
+  "description": "JAVASCRIPT LEARNING",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlheartbeat007/JAVASCRIPT_LEARNING.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlheartbeat007/JAVASCRIPT_LEARNING/issues"
+  },
+  "homepage": "https://github.com/mlheartbeat007/JAVASCRIPT_LEARNING#readme"
+}
