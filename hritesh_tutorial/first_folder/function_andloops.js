@@ -31,3 +31,11 @@ let mathop = function (number1, number2) {
 
 }
 console.log(mathop(12, 12))
+
+//function with a default value
+let name = function (name1 = null, course = 0) {
+    return "hello " + name1 + " your course " + course;
+
+}
+
+console.log(name('tanvir', 1));
