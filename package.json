@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/mlheartbeat007/JAVASCRIPT_LEARNING/issues"
   },
-  "homepage": "https://github.com/mlheartbeat007/JAVASCRIPT_LEARNING#readme"
+  "homepage": "https://github.com/mlheartbeat007/JAVASCRIPT_LEARNING#readme",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "http-server": "^0.11.1",
+    "vue": "^2.5.22"
+  }
 }
